@@ -1,1 +1,1 @@
-# [soap-2-day](https://freshteacher.software/soap-2-day/)https://freshteacher.software/soap-2-day/
+# This site is live at https://freshteacher.software/soap-2-day/
