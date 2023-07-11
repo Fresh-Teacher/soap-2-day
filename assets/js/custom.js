@@ -285,26 +285,3 @@ if (textarea !== null) {
         }
     });
 }
-
-// Find all anchor tags on the page
-const anchorTags = document.querySelectorAll('a');
-
-// Iterate over each anchor tag
-anchorTags.forEach(anchor => {
-  // Get the value of the href attribute
-  const href = anchor.getAttribute('href');
-  
-  // Check if the href starts with a slash
-  if (href && href.startsWith('/')) {
-    // Prevent the default click behavior
-    anchor.addEventListener('click', event => {
-      event.preventDefault();
-      
-      // Construct the absolute URL
-      const absoluteURL = 'https://wvvw.ssoap2day.to' + href;
-      
-      // Redirect the user to the absolute URL
-      window.location.href = absoluteURL;
-    });
-  }
-});
