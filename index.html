@@ -5,14 +5,14 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
     <title>Fresh Teacher's Video Library</title>
-    <meta name="description" content=" free movies online on soap2day, watch in HD full movies and series for free on Soap2day"/>
-    <meta name="keywords" content="soap2day, online movies, watch hd, full movies, tv shows online"/>
+    <meta name="description" content="Watch free translated and non-translated movies online on Fresh Teacher's Video Library!"/>
+    <meta name="keywords" content="Luganda Translated Movies, soap2day, online movies, watch hd, full movies, tv shows online"/>
     <meta name="author" content="Soap2day"/>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&amp;display=swap"/>
     <link rel="stylesheet" href="assets/css/styles.css"/>
-    <link rel="icon" href="https://wvvw.ssoap2day.to/assets/img/uploads/favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=64a625629c5ef4001902275e&product=sop' async='async'></script>
@@ -28,6 +28,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
 })();</script>
 <noscript><a href="https://wvvw.ssoap2day.to/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4776325&101" alt="free webpage hit counter" border="0"></a></noscript>
 <!-- Histats.com  END  -->
+<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool@latest/disable-devtool.min.js'></script></head>
 
 <body>
 <div id="loader-wrapper">
@@ -75,7 +76,12 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                 <input id="searchInput" class="form-control" type="search" autocomplete="on"
                                        placeholder="Find Movies, TVs, Directors, Actors" name="search" aria-label="search"
                                        required/>
-                                <button class="btn btn-primary btn-sm me-2" type="submit">
+                                <select class="form-control-sm" name="video-type" aria-label="Default select" id="search-video-type">
+                                    <option value="all">All</option>
+                                    <option value="movie">Movies</option>
+                                    <option value="series">TV Series</option>
+                                </select>
+                                <button class="btn btn-primary btn-sm me-2 btn-no-radius rounded-end" type="submit">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em"
                                          fill="currentColor">
                                         <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
@@ -106,7 +112,25 @@ hs.src = ('//s10.histats.com/js15_as.js');
                             </svg>
                         </a>
                     </div>
-                    
+                    <div class="d-sm-flex">
+                                                <a class="btn btn-dark btn-sm me-2 mb-sm-2 mb-lg-0" role="button" href="https://wvvw.ssoap2day.to/user/login">
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 -64 640 640" width="1em" height="1em"
+                                    fill="currentColor">
+                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                        d="M592 288H576V212.7c0-41.84-30.03-80.04-71.66-84.27C456.5 123.6 416 161.1 416 208V288h-16C373.6 288 352 309.6 352 336v128c0 26.4 21.6 48 48 48h192c26.4 0 48-21.6 48-48v-128C640 309.6 618.4 288 592 288zM496 432c-17.62 0-32-14.38-32-32s14.38-32 32-32s32 14.38 32 32S513.6 432 496 432zM528 288h-64V208c0-17.62 14.38-32 32-32s32 14.38 32 32V288zM224 256c70.7 0 128-57.31 128-128S294.7 0 224 0C153.3 0 96 57.31 96 128S153.3 256 224 256zM320 336c0-8.672 1.738-16.87 4.303-24.7C308.6 306.6 291.9 304 274.7 304H173.3C77.61 304 0 381.7 0 477.4C0 496.5 15.52 512 34.66 512h301.7C326.3 498.6 320 482.1 320 464V336z">
+                                </path>
+                            </svg>&nbsp;Login</a><a class="btn btn-success btn-sm mb-sm-2 mb-lg-0" role="button"
+                                                    href="https://wvvw.ssoap2day.to/user/register">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -64 640 640" width="1em"
+                                 height="1em" fill="currentColor">
+                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                <path
+                                        d="M224 256c70.7 0 128-57.31 128-128S294.7 0 224 0C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3C0 496.5 15.52 512 34.66 512h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM616 200h-48v-48C568 138.8 557.3 128 544 128s-24 10.75-24 24v48h-48C458.8 200 448 210.8 448 224s10.75 24 24 24h48v48C520 309.3 530.8 320 544 320s24-10.75 24-24v-48h48C629.3 248 640 237.3 640 224S629.3 200 616 200z">
+                                </path>
+                            </svg>&nbsp;Sign Up</a>
+                                            </div>
                 </div>
             </div>
         </div>
@@ -158,7 +182,6 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                 showLessBtn.style.display = 'none';
                             });
                         </script>
-                        
                     </div>
                 </div>
                                 <div class="col mb-3">
@@ -173,6 +196,17 @@ hs.src = ('//s10.histats.com/js15_as.js');
                             </div>
                             <div class="row gy-4 gx-1 row-cols-2 row-cols-sm-3 justify-content-center row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
                                                                     <div class="col mx-0">
+                                        <a href="https://wvvw.ssoap2day.to/movie/black-adam" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/pFlaoHTZeyNkG83vxsAJiGzfSsa.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2022</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Black Adam</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col mx-0">
                                         <a href="https://wvvw.ssoap2day.to/movie/transformers-rise-of-the-beasts" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
@@ -181,39 +215,6 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                                 <span class="text-bg-primary ribbon">2023</span>
                                             </div>
                                             <p class="text-truncate title-video">Transformers: Rise of the Beasts</p>
-                                        </a>
-                                    </div>
-                                                                        <div class="col mx-0">
-                                        <a href="https://wvvw.ssoap2day.to/movie/insidious-the-red-door" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/azTC5osYiqei1ofw6Z3GmUrxQbi.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">CAM</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
-                                            </div>
-                                            <p class="text-truncate title-video">Insidious: The Red Door</p>
-                                        </a>
-                                    </div>
-                                                                        <div class="col mx-0">
-                                        <a href="https://wvvw.ssoap2day.to/movie/sound-of-freedom" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/joai0d9CwvOcO5xFVUuePpeyHfu.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
-                                            </div>
-                                            <p class="text-truncate title-video">Sound of Freedom</p>
-                                        </a>
-                                    </div>
-                                                                        <div class="col mx-0">
-                                        <a href="https://wvvw.ssoap2day.to/movie/elemental" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/8riWcADI1ekEiBguVB9vkilhiQm.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
-                                            </div>
-                                            <p class="text-truncate title-video">Elemental</p>
                                         </a>
                                     </div>
                                                                         <div class="col mx-0">
@@ -228,6 +229,50 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                         </a>
                                     </div>
                                                                         <div class="col mx-0">
+                                        <a href="https://wvvw.ssoap2day.to/movie/insidious-the-red-door" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/uS1AIL7I1Ycgs8PTfqUeN6jYNsQ.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">CAM</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Insidious: The Red Door</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col mx-0">
+                                        <a href="https://wvvw.ssoap2day.to/movie/no-hard-feelings" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/5xeNPGbM8ImVdJACUoGpXT8Pxx3.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">No Hard Feelings</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col mx-0">
+                                        <a href="https://wvvw.ssoap2day.to/movie/sound-of-freedom" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/3EqF8M6dnkFEGI8C2DS974ImkB9.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">CAM</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Sound of Freedom</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col mx-0">
+                                        <a href="https://wvvw.ssoap2day.to/movie/the-flash" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">SD</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">The Flash</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col mx-0">
                                         <a href="https://wvvw.ssoap2day.to/movie/the-little-mermaid" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
@@ -239,136 +284,186 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                         </a>
                                     </div>
                                                                         <div class="col mx-0">
-                                        <a href="https://wvvw.ssoap2day.to/movie/no-hard-feelings" class="text-center d-block">
+                                        <a href="https://wvvw.ssoap2day.to/movie/mission-impossible---dead-reckoning-part-one" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/qkgAGAWqSxeLJ7MZeGpQs0S7Yd.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
-                                            </div>
-                                            <p class="text-truncate title-video">No Hard Feelings</p>
-                                        </a>
-                                    </div>
-                                                                        <div class="col mx-0">
-                                        <a href="https://wvvw.ssoap2day.to/movie/fast-x" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/fiVW06jE7z9YnO4trhaMEdclSiC.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
-                                            </div>
-                                            <p class="text-truncate title-video">Fast X</p>
-                                        </a>
-                                    </div>
-                                                                        <div class="col mx-0">
-                                        <a href="https://wvvw.ssoap2day.to/movie/indiana-jones-and-the-dial-of-destiny" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/y4zAHCRmS1wof5bUmEM9CZOYQ04.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
-                                            </div>
-                                            <p class="text-truncate title-video">Indiana Jones and the Dial of Destiny</p>
-                                        </a>
-                                    </div>
-                                                                        <div class="col mx-0">
-                                        <a href="https://wvvw.ssoap2day.to/movie/spider-man-into-the-spider-verse" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2018</span>
-                                            </div>
-                                            <p class="text-truncate title-video">Spider-Man: Into the Spider-Verse</p>
-                                        </a>
-                                    </div>
-                                                                        <div class="col mx-0">
-                                        <a href="https://wvvw.ssoap2day.to/movie/the-flash" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/rktDFPbfHfUbArZ6OOOKsXcv0Bm.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">CAM</span>
                                                 <span class="text-bg-primary ribbon">2023</span>
                                             </div>
-                                            <p class="text-truncate title-video">The Flash</p>
+                                            <p class="text-truncate title-video">Mission: Impossible - Dead Reckoning Part One</p>
                                         </a>
                                     </div>
-                                                                       
+                                                                        <div class="col mx-0">
+                                        <a href="https://wvvw.ssoap2day.to/movie/the-boogeyman" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/pYwZdnXVnVxAr7dx4MEK7tTK9gI.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">The Boogeyman</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col mx-0">
+                                        <a href="https://wvvw.ssoap2day.to/movie/elemental" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/8riWcADI1ekEiBguVB9vkilhiQm.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">CAM</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Elemental</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col mx-0">
+                                        <a href="https://wvvw.ssoap2day.to/movie/spider-man-across-the-spider-verse" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Spider-Man: Across the Spider-Verse</p>
+                                        </a>
+                                    </div>
                                                                 </div>
                             <div class="alert alert-info" role="alert">
                                 <span><strong>Latest Updates</strong></span>
                             </div>
                             <div class="row gy-4 gx-1 row-cols-2 row-cols-sm-3 justify-content-center row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
-                                                                    
-                                                                        <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/movie/insidious-the-red-door" class="text-center d-block">
+                                                                    <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/movie/d-e-b-s" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/azTC5osYiqei1ofw6Z3GmUrxQbi.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">CAM</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
-                                            </div>
-                                            <p class="text-truncate title-video">Insidious: The Red Door</p>
-                                        </a>
-                                    </div>
-                                                                        <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/movie/lust-stories-2" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/p5x729JI6wZs9hCqX7tc7oH87ih.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/cMwLTcG5aVBYeh5W6SVSfowboAf.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
+                                                <span class="text-bg-primary ribbon">2004</span>
                                             </div>
-                                            <p class="text-truncate title-video">Lust Stories 2</p>
+                                            <p class="text-truncate title-video">D.E.B.S.</p>
                                         </a>
                                     </div>
                                                                         <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/movie/we-are-still-here" class="text-center d-block">
+                                        <a href="https://wvvw.ssoap2day.to/movie/sex-tape" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/qcxQvNc0AneFsR3jeRxuXyBb14g.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/u2h7UnSHrbAA5WBoKhdH1rlDZfz.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2014</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Sex Tape</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/movie/absolutely-anything" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/tnBt9yPCQwnXLwioqfgnL5hqGM6.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2015</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Absolutely Anything</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/movie/the-black-phone" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/lr11mCT85T1JanlgjMuhs9nMht4.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
                                                 <span class="text-bg-primary ribbon">2022</span>
                                             </div>
-                                            <p class="text-truncate title-video">We Are Still Here</p>
-                                        </a>
-                                    </div>
-                                                                    
-                                                                        <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/movie/nimona" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/2NQljeavtfl22207D1kxLpa4LS3.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
-                                            </div>
-                                            <p class="text-truncate title-video">Nimona</p>
-                                        </a>
-                                    </div>
-                                                               
-                                                                        <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/movie/eldorado-everything-the-nazis-hate" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/hRxLEqRj1qEqxvfpQLtZKANmqDU.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
-                                            </div>
-                                            <p class="text-truncate title-video">Eldorado: Everything the Nazis Hate</p>
+                                            <p class="text-truncate title-video">The Black Phone</p>
                                         </a>
                                     </div>
                                                                         <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/movie/anthem" class="text-center d-block">
+                                        <a href="https://wvvw.ssoap2day.to/movie/my-fault" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/a1cFTXxBOYpIE0tli2Ewrykvlz0.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/w46Vw536HwNnEzOa7J24YH9DPRS.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
                                                 <span class="text-bg-primary ribbon">2023</span>
                                             </div>
-                                            <p class="text-truncate title-video">Anthem</p>
+                                            <p class="text-truncate title-video">My Fault</p>
                                         </a>
                                     </div>
-                                                                     
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/movie/extraction-2" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/7gKI9hpEMcZUQpNgKrkDzJpbnNS.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Extraction 2</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/movie/blake-of-scotland-yard" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/yLNFs0tk5sowWmUK6hg8tbIVOB6.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">1937</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Blake of Scotland Yard</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/movie/congo-bill" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/wvWimtHbhEsc6ACcecuAAsNu5ws.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">1948</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Congo Bill</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/movie/the-presidio" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/pHYtq4wFaUy5Rfa8lRi24QMUwRY.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">1988</span>
+                                            </div>
+                                            <p class="text-truncate title-video">The Presidio</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/movie/the-heart-is-a-lonely-hunter" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/vOznrQ5x8IAnsY0P3T7Jz9EEGP7.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">1968</span>
+                                            </div>
+                                            <p class="text-truncate title-video">The Heart Is a Lonely Hunter</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/movie/sound-of-freedom" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/3EqF8M6dnkFEGI8C2DS974ImkB9.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">CAM</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Sound of Freedom</p>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/movie/mission-impossible---dead-reckoning-part-one" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/NNxYkU70HPurnNCSiCjYAmacwm.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">CAM</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Mission: Impossible - Dead Reckoning Part One</p>
+                                        </a>
+                                    </div>
                                                                 </div>
                         </div>
                     </div>
@@ -384,8 +479,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                 <span><strong>Most Popular Today</strong></span>
                             </div>
                             <div class="row gy-4 gx-1 row-cols-2 row-cols-sm-3 justify-content-center row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
-                                                                 
-                                                                        <div class="col">
+                                                                    <div class="col">
                                         <a href="https://wvvw.ssoap2day.to/series/the-rookie" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
@@ -394,17 +488,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                                 <span class="text-bg-primary ribbon">2018</span>
                                             </div>
                                             <p class="text-truncate title-video">The Rookie</p>
-                                        </a>
-                                    </div>
-                                                                        <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/series/the-vampire-diaries" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/xnow2L5YZTo36T4koZs24zU5oqa.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2009</span>
-                                            </div>
-                                            <p class="text-truncate title-video">The Vampire Diaries</p>
+                                            <span class="fw-bold title-video">S5 - E22</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
@@ -416,6 +500,43 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                                 <span class="text-bg-primary ribbon">2017</span>
                                             </div>
                                             <p class="text-truncate title-video">Young Sheldon</p>
+                                            <span class="fw-bold title-video">S6 - E22</span>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/the-vampire-diaries" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/xnow2L5YZTo36T4koZs24zU5oqa.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2009</span>
+                                            </div>
+                                            <p class="text-truncate title-video">The Vampire Diaries</p>
+                                            <span class="fw-bold title-video">S8 - E16</span>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/the-summer-i-turned-pretty" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/ePpNZ6QCT5ylXniZmfQPyjyFCCM.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2022</span>
+                                            </div>
+                                            <p class="text-truncate title-video">The Summer I Turned Pretty</p>
+                                            <span class="fw-bold title-video">S1 - E7</span>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/euphoria" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/5mi3aRl16yKmfpQJMzvqN5TXkdA.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2019</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Euphoria</p>
+                                            <span class="fw-bold title-video">S2 - E8</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
@@ -427,17 +548,19 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                                 <span class="text-bg-primary ribbon">2018</span>
                                             </div>
                                             <p class="text-truncate title-video">All American</p>
+                                            <span class="fw-bold title-video">S5 - E20</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/series/the-summer-i-turned-pretty" class="text-center d-block">
+                                        <a href="https://wvvw.ssoap2day.to/series/hijack" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/utNX6hHohGmenZLW5pFMSrdOhL7.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/szDEqqarPi3YqiPLevm7LObYrDJ.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2022</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
                                             </div>
-                                            <p class="text-truncate title-video">The Summer I Turned Pretty</p>
+                                            <p class="text-truncate title-video">Hijack</p>
+                                            <span class="fw-bold title-video">S1 - E4</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
@@ -449,17 +572,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                                 <span class="text-bg-primary ribbon">2015</span>
                                             </div>
                                             <p class="text-truncate title-video">Miraculous: Tales of Ladybug & Cat Noir</p>
-                                        </a>
-                                    </div>
-                                                                        <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/series/euphoria" class="text-center d-block">
-                                            <div class="image-container">
-                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/jtnfNzqZwN4E32FGGxx1YZaBWWf.jpg" alt="movie poster"/>
-                                                <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2019</span>
-                                            </div>
-                                            <p class="text-truncate title-video">Euphoria</p>
+                                            <span class="fw-bold title-video">S5 - E26</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
@@ -471,6 +584,7 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                                 <span class="text-bg-primary ribbon">2019</span>
                                             </div>
                                             <p class="text-truncate title-video">Tyler Perry's Sistas</p>
+                                            <span class="fw-bold title-video">S6 - E6</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
@@ -482,92 +596,180 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                                 <span class="text-bg-primary ribbon">2009</span>
                                             </div>
                                             <p class="text-truncate title-video">Modern Family</p>
+                                            <span class="fw-bold title-video">S11 - E18</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/series/the-kardashians" class="text-center d-block">
+                                        <a href="https://wvvw.ssoap2day.to/series/love-island" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/6mGCYwh5OMpLgTqc9Sh2RnPB7Ic.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/47X1h91UUfhMxO42KV9fKoGAVMC.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2022</span>
+                                                <span class="text-bg-primary ribbon">2019</span>
                                             </div>
-                                            <p class="text-truncate title-video">The Kardashians</p>
+                                            <p class="text-truncate title-video">Love Island</p>
+                                            <span class="fw-bold title-video">S4 - E38</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/series/secret-invasion" class="text-center d-block">
+                                        <a href="https://wvvw.ssoap2day.to/series/south-park" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/5rhoPzWGVSsqONBkNbAkMZULNoq.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/iiCY2QIGSnmtVkIdjkKAfwDs0KF.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2023</span>
+                                                <span class="text-bg-primary ribbon">1997</span>
                                             </div>
-                                            <p class="text-truncate title-video">Secret Invasion</p>
+                                            <p class="text-truncate title-video">South Park</p>
+                                            <span class="fw-bold title-video">S26 - E6</span>
                                         </a>
                                     </div>
                                                                 </div>
-                            <div class="alert alert-info" role="alert">
+                            <div class="alert alert-info mt-3" role="alert">
                                 <span><strong>Latest Updates</strong></span>
                             </div>
                             <div class="row gy-4 gx-1 row-cols-2 row-cols-sm-3 justify-content-center row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
-                                                                  
-                                                                 
-                                                                      
-                                                                      
-                                                                        <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/series/forensic-files-ii" class="text-center d-block">
+                                                                    <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/globe-trekker" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/lR9KaWM2IbWmDDM4WeNabzkZ40I.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/hMP8XLI1QFqJdeZ6fz78RdWniYE.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2020</span>
+                                                <span class="text-bg-primary ribbon">1994</span>
                                             </div>
-                                            <p class="text-truncate title-video">Forensic Files II</p>
+                                            <p class="text-truncate title-video">Globe Trekker</p>
+                                            <span class="fw-bold title-video">S17 - E13</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/series/cruel-summer" class="text-center d-block">
+                                        <a href="https://wvvw.ssoap2day.to/series/curious-george" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/mPiDMJC5vCz1xYR3qX7zzBxLRcC.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/AWQF9ZP7X5GqGUoXnyj1NSQjKo.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2006</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Curious George</p>
+                                            <span class="fw-bold title-video">S15 - E28</span>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/secrets-of-the-london-underground" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/jcNaSgMrjPj3CatIdTiwOPEODRt.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
                                                 <span class="text-bg-primary ribbon">2021</span>
                                             </div>
-                                            <p class="text-truncate title-video">Cruel Summer</p>
+                                            <p class="text-truncate title-video">Secrets of the London Underground</p>
+                                            <span class="fw-bold title-video">S3 - E2</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/series/below-deck-sailing-yacht" class="text-center d-block">
+                                        <a href="https://wvvw.ssoap2day.to/series/doctors-CheOZ" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/xRYK5NhY15uKaJ4a97xmWyHxSCi.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/thZKqMWevSJVTeAiedy40umvz11.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2020</span>
+                                                <span class="text-bg-primary ribbon">2000</span>
                                             </div>
-                                            <p class="text-truncate title-video">Below Deck Sailing Yacht</p>
+                                            <p class="text-truncate title-video">Doctors</p>
+                                            <span class="fw-bold title-video">S24 - E85</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/series/impact-of-murder" class="text-center d-block">
+                                        <a href="https://wvvw.ssoap2day.to/series/dora-and-friends-into-the-city" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/3vi56XpSUzxpMAmaQjlPfSPY3TR.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/sn9S1JmujZgkOzrrlbPzs2U3GjV.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2019</span>
+                                                <span class="text-bg-primary ribbon">2014</span>
                                             </div>
-                                            <p class="text-truncate title-video">Impact of Murder</p>
+                                            <p class="text-truncate title-video">Dora and Friends: Into the City!</p>
+                                            <span class="fw-bold title-video">S3 - E1</span>
                                         </a>
                                     </div>
                                                                         <div class="col">
-                                        <a href="https://wvvw.ssoap2day.to/series/90-day-fianc-the-other-way" class="text-center d-block">
+                                        <a href="https://wvvw.ssoap2day.to/series/paw-patrol" class="text-center d-block">
                                             <div class="image-container">
                                                 <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
-                                                     data-src="https://image.tmdb.org/t/p/w500/jw4KDjNmpBnMd7fEjbz9qTUmKJS.jpg" alt="movie poster"/>
+                                                     data-src="https://image.tmdb.org/t/p/w500/8HXkgUBO5OF8ZK9XbY69RM4S5rv.jpg" alt="movie poster"/>
                                                 <span class="text-bg-secondary ribbon-left">HD</span>
-                                                <span class="text-bg-primary ribbon">2019</span>
+                                                <span class="text-bg-primary ribbon">2013</span>
                                             </div>
-                                            <p class="text-truncate title-video">90 Day Fiancé: The Other Way</p>
+                                            <p class="text-truncate title-video">PAW Patrol</p>
+                                            <span class="fw-bold title-video">S10 - E2</span>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/joe-pickett" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/pWBCwK0lp5RLCyG89JzrhEVny47.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2021</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Joe Pickett</p>
+                                            <span class="fw-bold title-video">S2 - E7</span>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/nailed-it" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/3wLAkbQu2Ld1rjiEeFvHnqmO5zN.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2018</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Nailed It!</p>
+                                            <span class="fw-bold title-video">S7 - E4</span>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/the-prank-panel" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/57iAgrlcXndGTM8JTPDgFp60xxa.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2023</span>
+                                            </div>
+                                            <p class="text-truncate title-video">The Prank Panel</p>
+                                            <span class="fw-bold title-video">S1 - E2</span>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/family-guy" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/aLB7psB9N81n5GecHNOudXWW3AI.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">1999</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Family Guy</p>
+                                            <span class="fw-bold title-video">S21 - E20</span>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/american-ninja-warrior" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/yBIU08mtcHc2zQcg0bjpvZAFkkg.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2009</span>
+                                            </div>
+                                            <p class="text-truncate title-video">American Ninja Warrior</p>
+                                            <span class="fw-bold title-video">S15 - E5</span>
+                                        </a>
+                                    </div>
+                                                                        <div class="col">
+                                        <a href="https://wvvw.ssoap2day.to/series/below-deck" class="text-center d-block">
+                                            <div class="image-container">
+                                                <img src="/assets/img/loader.gif" class="img-fluid lazy border rounded-0 shadow-sm"
+                                                     data-src="https://image.tmdb.org/t/p/w500/xMkYEWMGB7F7YfzJ24DPXoDj8vo.jpg" alt="movie poster"/>
+                                                <span class="text-bg-secondary ribbon-left">HD</span>
+                                                <span class="text-bg-primary ribbon">2013</span>
+                                            </div>
+                                            <p class="text-truncate title-video">Below Deck</p>
+                                            <span class="fw-bold title-video">S10 - E17</span>
                                         </a>
                                     </div>
                                                                 </div>
@@ -588,70 +790,70 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                 <div class="col">
                                     <p>Recommendation</p>
                                     <ul class="list-unstyled">
-                                                                                    <li><a href="https://wvvw.ssoap2day.to/movie/the-last-house-on-cemetery-lane">The Last House on Cemetery Lane</a>
+                                                                                    <li><a href="https://wvvw.ssoap2day.to/movie/i-was-lorena-bobbitt">I Was Lorena Bobbitt</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/grease-live">Grease Live</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/princess-mononoke">Princess Mononoke</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/race">Race</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/river-of-grass">River of Grass</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/mcq">McQ</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/lassie-come-home">Lassie Come Home</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/storytelling">Storytelling</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/nose">Nose</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/life-on-the-line">Life on the Line</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/love-and-monsters">Love and Monsters</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/tig">Tig</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/magic-mike-s-last-dance">Magic Mike's Last Dance</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/hard-sell">Hard Sell</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/dumbo">Dumbo</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/trace">Trace</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/apprentice-to-murder">Apprentice to Murder</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/swimming-with-sharks">Swimming with Sharks</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/part-time-girlfriend">Part-Time Girlfriend</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/corpse-party">Corpse Party</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/death-in-texas">Death in Texas</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/down-with-love">Down with Love</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/chaco">Chaco</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/chandrettan-evideya">Chandrettan Evideya</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/nightmare-alley">Nightmare Alley</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/noma-my-perfect-storm">Noma: My Perfect Storm</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/wish-i-was-here">Wish I Was Here</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/the-angry-birds-movie">The Angry Birds Movie</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/retina">Retina</a>
                                             </li>
                                                                                 </ul>
                                 </div>
                                 <div class="col">
                                     <p>Popular</p>
                                     <ul class="list-unstyled">
-                                                                                    <li><a href="https://wvvw.ssoap2day.to/movie/the-little-mermaid">The Little Mermaid</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/guardians-of-the-galaxy-vol-3">Guardians of the Galaxy Vol. 3</a>
+                                                                                    <li><a href="https://wvvw.ssoap2day.to/movie/black-adam">Black Adam</a>
                                             </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/movie/transformers-rise-of-the-beasts">Transformers: Rise of the Beasts</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/insidious-the-red-door">Insidious: The Red Door</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/elemental">Elemental</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/fast-x">Fast X</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/sound-of-freedom">Sound of Freedom</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/no-hard-feelings">No Hard Feelings</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/guardians-of-the-galaxy-vol-3">Guardians of the Galaxy Vol. 3</a>
                                             </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/movie/the-flash">The Flash</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/indiana-jones-and-the-dial-of-destiny">Indiana Jones and the Dial of Destiny</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/insidious-the-red-door">Insidious: The Red Door</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/no-hard-feelings">No Hard Feelings</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/sound-of-freedom">Sound of Freedom</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/the-little-mermaid">The Little Mermaid</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/mission-impossible---dead-reckoning-part-one">Mission: Impossible - Dead Reckoning Part One</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/elemental">Elemental</a>
                                             </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/movie/the-boogeyman">The Boogeyman</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/spider-man-into-the-spider-verse">Spider-Man: Into the Spider-Verse</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/indiana-jones-and-the-dial-of-destiny">Indiana Jones and the Dial of Destiny</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/the-super-mario-bros-movie">The Super Mario Bros. Movie</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/fast-x">Fast X</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/the-blackening">The Blackening</a>
                                             </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/movie/my-fault">My Fault</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/movie/extraction-2">Extraction 2</a>
                                             </li>
                                                                                 </ul>
                                 </div>
@@ -669,32 +871,35 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                 <div class="col">
                                     <p>New Releases</p>
                                     <ul class="list-unstyled">
+                                                                                    <li><a href="https://wvvw.ssoap2day.to/series/last-call-when-a-serial-killer-stalked-queer-new-york">Last Call: When a Serial Killer Stalked Queer New York</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/my-adventures-with-superman">My Adventures with Superman</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/the-ashley-madison-affair">The Ashley Madison Affair</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/the-dessert">The Dessert</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/fatal-seduction">Fatal Seduction</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/hack-my-home">Hack My Home</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/the-horror-of-dolores-roach">The Horror of Dolores Roach</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/kizazi-moto-generation-fire">Kizazi Moto: Generation Fire</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/human-footprint">Human Footprint</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/blindspot-lVLIc">Blindspot</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/celebrity">Celebrity</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/secret-chef">Secret Chef</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/freeks">FreeKs</a>
                                             </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/series/hijack">Hijack</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/i-m-a-virgo">I'm a Virgo</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/skull-island">Skull Island</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/glamorous">Glamorous</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/secret-invasion">Secret Invasion</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/the-walking-dead-dead-city">The Walking Dead: Dead City</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/the-killer">The Killer</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/the-search">The Search</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/the-full-monty">The Full Monty</a>
-                                            </li>
-                                            </li>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/best-interests">Best Interests</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/home-school">Home School</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/year-of">Year Of</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/delete">Delete</a>
                                             </li>
                                                                                 </ul>
                                 </div>
@@ -703,20 +908,17 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                     <ul class="list-unstyled">
                                                                                     <li><a href="https://wvvw.ssoap2day.to/series/the-rookie">The Rookie</a>
                                             </li>
-                                            </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/series/young-sheldon">Young Sheldon</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/all-american">All American</a>
                                             </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/series/the-vampire-diaries">The Vampire Diaries</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/never-have-i-ever">Never Have I Ever</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/all-american">All American</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/the-summer-i-turned-pretty">The Summer I Turned Pretty</a>
                                             </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/series/euphoria">Euphoria</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/south-park">South Park</a>
-                                            </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/the-summer-i-turned-pretty">The Summer I Turned Pretty</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/hijack">Hijack</a>
                                             </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/series/miraculous-tales-of-ladybug-cat-noir">Miraculous: Tales of Ladybug & Cat Noir</a>
                                             </li>
@@ -724,11 +926,15 @@ hs.src = ('//s10.histats.com/js15_as.js');
                                             </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/series/modern-family">Modern Family</a>
                                             </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/love-island">Love Island</a>
+                                            </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/series/the-kardashians">The Kardashians</a>
+                                            </li>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/south-park">South Park</a>
                                             </li>
                                                                                         <li><a href="https://wvvw.ssoap2day.to/series/ted-lasso">Ted Lasso</a>
                                             </li>
-                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/rick-and-morty">Rick and Morty</a>
+                                                                                        <li><a href="https://wvvw.ssoap2day.to/series/fatal-seduction">Fatal Seduction</a>
                                             </li>
                                                                                 </ul>
                                 </div>
@@ -740,15 +946,21 @@ hs.src = ('//s10.histats.com/js15_as.js');
         </div>
     </div>
 </section>
-<footer>
-    <section class="mb-3">
-        <div class="card">
-            <div class="card-body pb-1">
-                <p class="text-center">©<script>document.write(new Date().getFullYear());</script> Fresh Teacher's Software.  All rights reserved.</p>
-            </div>
-        </div>
-    </section>
-</footer>
+  <!-- Footer -->
+    <footer class="footer"
+      style="background-color: #ffffff; height: 100px; display: flex; justify-content: center; align-items: center;">
+      <div class="container">
+        <p style="text-align: center;"><br>
+          Made with <span style="color: red;">❦</span> by Mutumba Jesse Paul aka <strong>Fresh Teacher</strong><br>
+          &copy; Fresh Teacher's Software <span id="currentYear"></span><br>
+          <a href="tel:+256750687790">0750687790</a> / <a href="tel:+256786812837">0786812837</a> <br>
+          <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a> | <a
+            href="disclaimer.html">Disclaimer</a>
+        </p><br>
+
+      </div>
+    </footer>
+    <!-- End of Footer -->
 
 <div class="modal fade" id="requestVideoModal" tabindex="-1" aria-labelledby="requestVideoLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
